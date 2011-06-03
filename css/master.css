@@ -1,0 +1,68 @@
+.player_box {
+	float:right;
+}
+
+#header {
+	background-color: red;
+	height: 50px;
+}
+
+.heading {
+	font-size: 18px;
+	font-weight:bold;
+}
+
+#navbar{
+	margin:0;
+	padding:0;
+}
+
+#navbar li {
+	display:inline;
+	padding:0;
+	margin:0;
+}
+
+#navbar a:link,
+#navbar a:visited {
+	color:#000;
+	background:#b2b580;
+	padding: 20px 40px 4px 10px;
+	float:left;
+	width:auto;
+}	
+
+#footer {
+	background-color: blue;
+	height: 100px;
+}
+
+.tab {
+	display:hidden;
+	width:100%;
+}
+#top {
+	float:left;
+}
+#bottom {
+	float:right;
+}
+
+.match, 
+.match td{
+	border-collapse:collapse;
+	border:1px solid #666666;
+}
+
+td.pict {
+	width:50px;
+}
+
+td.score{
+	width:100px;
+}
+
+td.gap{
+	width:400px;
+	border:none;
+}
