@@ -1,0 +1,27 @@
+The original idea which I've somewhat strayed from:
+
+Note: some of this functionality is either not present or else present and bad :)
+
+*FacebookManager*
+
+A Football (or any sport really) Manager which allows you to pick a team from your friends, and through usage of the app you generate a team. You can then play against other teams and this will either increase or degrade your points.
+
+*The Team*
+
+Each player is represented as a object in database, each player has skill level, for now, each player’s skill will relate to any position on the pitch. The catch is that the players skill level will increase across the board, i.e you playing the game as a manager will benefit your friends teams significantly.
+
+For those players who aren’t a part of the game, they will be awarded a skill level of 1.
+
+Every win will result in a skill level increase for the manager and also 5 skill levels which he can distribute evenly across players.
+
+*The Match*
+
+The game engine will run on some sort of calculation like this:
+
+Team 1’s overall score + (Team 1’s manager score * (Teams 1’s overall score /2))  + luck factor + (home advantage(+1)/away disadvantage)
+
+and vice versa
+
+Notes:
+
+Keep in mind, this is the core functionality I wish to get going before I release this into the wild, things such as daily "training" of the players and posting to walls on victories is also a hopeful :) 
